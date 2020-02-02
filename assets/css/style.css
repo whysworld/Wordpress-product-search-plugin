@@ -1,0 +1,107 @@
+.ecu-mmy-filter-selector{
+	min-width: 100%;
+	padding: 15px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 0px 5px 0px rgba(50,50,50,0.75);
+	-moz-box-shadow: 1px 0px 5px 0px rgba(50,50,50,0.75);
+	box-shadow: 1px 0px 5px 0px rgba(50,50,50,0.75);
+
+}
+.ecu-mmy-filter-wrapper{
+	max-width: 300px;
+	background-color: #0188cc;
+	padding: 50px 5px;
+	border-radius: 5px;
+	z-index: 99;
+}
+.ecu-mmy-filter-wrapper .ecu-mmy-filter-title h3{
+    color: white;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+.ecu-select-wrapper{
+	max-width: 100%;
+	margin: 0 auto;
+}
+.ecu-mmy-filter-desc{
+	font-size: 16px;
+    color: #eee;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.ecu-mmy-filter-apply {
+    margin-top: 20px;
+
+}
+.ecu-mmy-filter-apply button{
+	padding: 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    min-width: 100%;
+    border-radius: 3px;
+    box-shadow: 1px 0px 5px 0px rgba(50,50,50,0.75);
+}
+.ecu-mmy-filter-wrapper .ecu-select-wrapper{
+	margin: 15px auto;
+}
+.ecu-select-wrapper .blockUI{
+	border:none !important;
+}
+.ecu-select-wrapper .blockUI img{
+	width:30px;
+	height:30px;
+}
+.ecu-mmy-filter-selector.selected{
+   background-color: beige;
+}
+.ecu-wrapper{
+	padding: 0px 20px;
+}
+.ecu-mmy-filter-wrapper.ecu-mmy-filter-footer{
+	background-color: transparent !important;
+    padding: 0px !important;
+    max-width: 250px !important;
+}
+.ecu-mmy-filter-footer .ecu-wrapper{
+	padding: 0px !important;
+}
+.ecu-mmy-filter-footer .ecu-mmy-filter-selector{
+	padding: 10px;
+}
+.ecu--mmy-filter-footer .ecu-mmy-filter-apply button{
+	font-size: 14px;
+    padding: 8px;
+    margin-top: 10px;
+}
+#ecu-mmy-filter-home-wrapper.ecu-mmy-filter-home .blockUI.blockOverlay{
+	width: calc(100% - 20px) !important;
+    margin-left: 10px !important;
+}
+
+#ecu-mmy-filter-home-wrapper.ecu-mmy-filter-home{
+	position: absolute;
+	right: 10px;
+	width: 300px;
+}
+a.ecu-repair-request{
+	color: #eee;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+a.ecu-repair-request:hover{
+	color: #fff;
+}
+.ecu-select-wrapper.center{
+	text-align: center;
+}
+@media (max-width:575px){
+	#ecu-mmy-filter-home-wrapper.ecu-mmy-filter-home{
+		right: calc(50% - 150px);
+	}	
+}
+@media (min-width: 1460px){
+	#ecu-mmy-filter-home-wrapper.ecu-mmy-filter-home{
+		min-width:500px;
+	}
+}
